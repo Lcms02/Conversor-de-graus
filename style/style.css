@@ -18,7 +18,7 @@ h1{
 }
 
 .container{
-    width: 30%;
+    width: 33%;
     max-width: 1200px;
     display: flex;
     margin: auto;
@@ -62,7 +62,7 @@ h1{
 }
 
 .container-resultado{
-    width: 30%;
+    width: 33%;
     max-width: 1200px;
     display: flex;
     margin: auto;
@@ -76,7 +76,6 @@ h1{
 table, th, td{
     border:1px #000 solid;
     border-collapse: collapse;
-    margin-top: 10px;
     width: 400px;
     color: #000000;
 }

@@ -5,7 +5,7 @@ document.querySelector('#btn').onclick=function(){
   let tbody=document.querySelector('tbody');
   graus=parseFloat(graus);
 
-    if(graus>0){
+   
 
   if(selector === '°C'){
     var celsius = graus;
@@ -20,12 +20,14 @@ if(selector === '°F'){
     var kelvin = ((graus + 459.67) / 1.8).toFixed(2);
     var Rankine = ((graus + 459.67)).toFixed(2);
 }
-  
+
+  if(graus>0){
 if(selector === 'K'){
     var celsius = ((graus - 273.15).toFixed(2));
     var farenheit = ((graus * 1.8) - 459.67).toFixed(2);
     var kelvin = graus;
     var Rankine = ((graus * 1.8)).toFixed(2);
+}
 }
 
 if(selector === 'R'){
@@ -52,5 +54,5 @@ let tdCelsius=document.createElement("td");
     tr.append(tdRankine);
 
   tbody.append(tr)
-}
+
 }
