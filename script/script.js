@@ -8,7 +8,6 @@ document.querySelector('#btn').onclick=function(){
    
   if(graus>0){
   if(document.querySelector('#selector').value!='null'){
-   
   
   if(selector === '°C'){
     var celsius = graus;
