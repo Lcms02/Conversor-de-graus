@@ -6,7 +6,10 @@ document.querySelector('#btn').onclick=function(){
   graus=parseFloat(graus);
 
    
-
+  if(graus>0){
+  if(document.querySelector('#selector').value!='null'){
+   
+  
   if(selector === '°C'){
     var celsius = graus;
     var farenheit = ((graus * 1.8) + 32).toFixed(2);
@@ -54,5 +57,7 @@ let tdCelsius=document.createElement("td");
     tr.append(tdRankine);
 
   tbody.append(tr)
-
+  }
+}
+  document.querySelector("#numero").value="";
 }
